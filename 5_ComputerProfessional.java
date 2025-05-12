@@ -47,7 +47,8 @@ class NetworkAdmin extends ComputerProfessional {
         this.PracticeHours = PracticeHours; // Initialize practice hours
     }
 
-    // Override display method to include practice hour
+    // Override display method to include practice hours
+    @Override
     public void display() {
         super.display();                    // Call the display method from ComputerProfessional
         System.out.println("Practice Hours: " + PracticeHours);
